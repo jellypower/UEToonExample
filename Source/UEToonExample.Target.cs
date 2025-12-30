@@ -11,5 +11,6 @@ public class UEToonExampleTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
 		ExtraModuleNames.Add("UEToonExample");
-	}
+        ExtraModuleNames.Add("ALSV4_CPP");
+    }
 }
